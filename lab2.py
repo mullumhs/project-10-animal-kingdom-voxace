@@ -4,20 +4,32 @@
 - File Name: lab2.py
 - Teacher: David Steedman
 - Class: Software Engineering
-- Description: Create a class for a contact in a contact management system.
+- Description: Extend the Animal Kingdom program from Lab 1 to include polymorphism,
+               demonstrating method overriding in derived classes.
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-# Create a class named Contact that represents a contact in a contact management system. 
-# This class should have an initialiser with attributes for name, phone_number, and email.
-# Add a class attribute to keep track of the total number of contacts.
+# Paste your base class Animal and the derived classes from Lab 1 here.
 
 
 
-# Create at least two instances of the Contact class with different data.
+
+
+# Modify the classes to demonstrate polymorphism through method overriding.
+# Each derived class should override at least one method from the Animal class.
+# For instance, you might want to override a 'make_sound' method to reflect the specific sound each animal makes.
 
 
 
-# Write code that prints out the details of each contact you have created.
+
+
+# Create at least two instances of your derived classes
+
+
+
+
+
+# Call the overridden methods on the instances.
+
 
 
 

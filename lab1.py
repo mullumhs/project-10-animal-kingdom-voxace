@@ -4,47 +4,33 @@
 - File Name: lab1.py
 - Teacher: David Steedman
 - Class: Software Engineering
-- Description: Create and manipulate Car objects in Python to understand 
-  basic concepts of Object-Oriented Programming.
+- Description: Create a base class for an animal and derived classes for specific 
+               types of animals in an animal kingdom program.
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-class Car:
-    def __init__(self, color, brand):
-        self.color = color
-        self.brand = brand
-        self.is_engine_on = False
-
-    def start_engine(self):
-        self.is_engine_on = True
-        print(f"The engine of the {self.color} {self.brand} is now on.")
-
-    def stop_engine(self):
-        self.is_engine_on = False
-        print(f"The engine of the {self.color} {self.brand} is now off.")
-
-
-# Add another property to the Car class called "odometer".
-# This property should be initialised to 0.
+# Create a class named Animal that represents a generic animal in an animal kingdom.
+# This class should have an initialiser with at least three attributes. E.g. name, age, and habitat.
+# Add at least two methods for common animal behaviors. E.g. eat and sleep.
 
 
 
-# Create two Car objects. One should be a red Toyota and the other a blue Ford.
+
+
+# Create at least two derived classes from the Animal class. E.g. Bird and Fish.
+# Give each of the derived classes at least one specific behavior. E.g. fly and swim.
 
 
 
-# Start the engine of the red Toyota.
+
+
+# Create at least two instances of the Animal derived classes with different data.
 
 
 
-# Create a method called "drive" that takes a distance as a parameter.
-# The car can only be driven if the engine is on.
 
 
-
-# Attempt to drive both cars 100Km.
-
+# Write code that prints out the details of each animal and calls their specific behaviors.
 
 
-# Print the brand, odometer and colour of both cars.
 
 

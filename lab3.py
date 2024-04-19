@@ -4,12 +4,33 @@
 - File Name: lab3.py
 - Teacher: David Steedman
 - Class: Software Engineering
-- Description: Enhance the Contact class by adding instance and class methods.
+- Description: Build a Zoo class to manage a collection of animals from the Animal
+               Kingdom program. Demonstrate managing objects and class interactions.
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-# 1. Copy/paste your Contact class from Lab 2.
-# 2. Add a check_email method to check if the email contains an '@'
-# 3. Create a class method get_contact_count to retrieve the number of contacts
-# 4. Reproduce the instances of the Contact class that you created in Lab 2
-# 5. Call your new instance method on one Contact and print the result
-# 6. Use the class method to print out the total number of contacts
+# Import your base class Animal and any derived classes (e.g., Bird, Fish) here from Lab 2.
+
+
+
+
+
+# Define the Zoo class that can manage multiple Animal objects. It should have the following two methods:
+# __init__ - Initialises a new Zoo instance with an empty list to hold animal objects.
+# add_animal - Adds an animal to the zoo's list and confirms addition with a return message.
+# You should then think of and implement at least one additional method for the Zoo class. E.g. feed_all
+
+
+
+
+
+# Create instances of derived Animal classes and add them to the Zoo.
+
+
+
+
+
+# Demonstrate the Zoo's functionality by calling its methods.
+
+
+
+
